@@ -1,0 +1,385 @@
+body{ 
+	font-family: 'Albert Sans', sans-serif !important;}
+
+header { 
+	background-color: white !important; 
+	color: white;
+	text-align: center;
+	padding-top: 5%;}
+
+nav { 
+	margin: 0px auto; 
+	text-align: center;}
+
+nav ul  { display: inline-block !important;
+	list-style-type: none; 
+	ali}
+
+nav ul li  {
+	display: inline-block !important;
+	padding: 8px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	}
+
+nav ul li a{ 
+	color: whitesmoke; !important;
+    }
+
+h1 {
+	text-align: center;
+	margin: 0px auto;
+	padding-top: 5%;
+	padding-bottom: 5%;}
+
+a.whitelink:hover {
+	color: grey !important;
+    text-decoration: underline;
+}
+
+p.card-text{
+    font-size:x-large;
+}
+
+.history {
+
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-right: 12%;
+    padding-left: 12%;
+    text-align: center;
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+  background-color: #777;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 40rem;
+}
+
+
+
+#logo-image {
+	height: 180px;
+	width: 180px;
+}
+
+.logo-container {
+	padding-top: 4%;
+	padding-bottom: 4%;
+	background-color: white;
+	}
+
+.gallery-divider {
+	height: 35rem;
+	width: 100%;
+
+}
+
+a.btn:hover{
+	background-color: grey !important;
+	border-color: grey !important;
+}
+
+/* Eventi */
+#events { 
+          background-color: black;
+          background-size: cover;
+          background-position: top;
+          color: #white; !important;
+          background-attachment: fixed;
+          padding-top: 50px;
+          padding-bottom: 50px; 
+        }
+
+#events h1 { 
+    color: white;
+             text-align: center; 
+             padding-bottom: 10px; 
+           }
+
+#events h1::after { 
+                    content: ""; /* caratteristiche sottolineatura titoli - Eventi precedenti/programma - */
+                    background: #black;
+                    display: block; 
+                    height: 3px;
+                    width: 280px;
+                    margin: 20px auto 5px; 
+                  }
+
+.icon { 
+    color: white;
+        font-size: 40px; 
+        margin: 20px auto;
+        padding: 10px; /* centramento contorno icone */
+        height: 80px; 
+        width: 80px;
+        border: 1px solid #fff; /* contorno icone */
+        border-radius: 50%; /* forma circolare contorno icone */
+      }
+
+#events p { 
+    color: white;
+            font-size: 17px; /* dimensione scritte sottostanti al nome dei locali */
+            margin-top: 20px; 
+          } 
+#events h3 {  color: white;
+    } 
+
+.events .col-md-3:hover { 
+                          background-color: darkred;
+                          cursor: pointer;
+                          transition: 0.7s; 
+
+                        }  
+
+/* Contatti */
+
+#contact { 
+             
+    padding-top: 7%;
+    padding-bottom: 7%;
+    padding-right: 12%;
+    padding-left: 12%;
+    text-align: left;
+    
+         }
+
+#contact h1 { 
+              text-align: left; 
+              background-color: black;
+              color: white;
+              padding-left: 13px;
+              padding-bottom: 10px; 
+              padding-top: 20px;
+            }
+
+
+.follow { 
+      
+         background: #black; /* colorazione e dimensione sezione - contatti della band */
+         padding-bottom: 20px; 
+              padding-top: 20px;
+              padding-left: 13px;
+        margin: 10px;
+        color: white;
+
+           }
+
+
+.contact-info .fa { 
+                    margin: 20px;
+                    font-weight: bold;
+                    text-align: left; 
+                    padding: 20px;
+                    color: white;
+
+                  }
+
+
+
+.contact-info .fa-brands  { 
+                                    font-size: 30px;
+                                    color: white;
+                                    margin: 10px;
+                                    padding-bottom: 20px;
+                                    padding-left: 10px;
+                                  }
+
+.contact-info .fa-brands:hover { 
+                                          color: darkred; 
+                                        }
+
+.contact-info .fa-instagram { 
+                            font-size: 30px; 
+                             padding-top: 20px;
+                             padding-left: 10px;
+                             color: white;
+                          }
+
+.contact-info .fa-instagram:hover { 
+                                  color: #darkred; !important
+ }
+
+.contact-info { 
+                  padding: 7px; /* distanza tra le icone - facebook e youtube - */
+                  color: black; 
+
+
+                }
+
+.btn { 
+       margin: auto;/* posizione del bottone - Mandaci una email - */
+       color:  #darkred; !important;
+       
+     }
+
+.contact-info .btn { 
+                   
+                     color: #fff;  /* colore scritta - Mandaci una email - */  
+                     font-size: 26px; /* grandezza del bottone */
+                     padding-top: 7px; 
+                     padding-bottom: 3px; /* centramento scritta - Mandaci una email - all'interno del bottone */
+                     padding-left: 13px;
+                   }                
+
+
+/* Newsletter */
+
+.form0 {
+    display: none !important;
+}
+
+.newsletter h3 {
+   color: white;
+}
+label {
+    font-size: 16px;
+    text-align: left;
+    display: block;
+
+}
+
+label.warning {
+    color: #f00;
+   
+}
+
+input[type="email"], input[type="number"], input[type="password"], input[type="tel"], input[type="url"], input[type="text"], input, input.text, input.title, textarea, select {
+    font-size: 18px;
+    color: #darkred;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    background: #eee;
+    margin: 0 0 20px 0;
+    padding: 15px 10px;
+}
+
+select {
+    padding: 14px 10px;
+}
+
+textarea {
+    height: 150px;
+
+}
+
+input.text:focus, input.title:focus, textarea:focus, select:focus {
+    color: #grey;
+    background: #fff;
+}
+
+input[type="text"]:disabled {
+    cursor: not-allowed;
+}
+
+input.submit, a.button, a.button:link, a.button:visited, .button, button, .button, button, input[type="submit"], input[type="reset"], input[type="button"] {
+    color: #000;
+    border: none;
+    background-color: #fc7777;
+    font-size: 18px;
+    font-weight: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-table;
+    cursor: pointer;
+    margin: 0 0 30px 0;
+    padding: 15px 15px;
+    box-sizing: border-box;
+    text-align: center;
+    position: relative;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.button{
+    background-color: darkred !important;
+}
+
+.button:hover, button:hover, a.button:hover, input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover, .button:active, button:active, a.button:active, input[type="submit"]:active, input[type="reset"]:active, input[type="button"]:active {
+    color: #000;
+    border: none;
+    background-color: #fff;
+}
+
+.button_full {
+    width: 100%;
+    display: block;
+}
+
+input.warning {
+    color: #f00;
+    border: 1px solid #c00;
+    background-color: rgba(255, 0, 0, 0.2);
+}
+
+input.warning:focus {
+    color: #f00;
+}
+
+input.share_url {
+    padding-left: 30px;
+    background-image: url(../images/layout/bg_link.png);
+    background-position: 7px center;
+    background-repeat: no-repeat;
+}
+
+
+@media screen  (min-device-width : 320px) and (max-device-width: 600px) { /*Smartphone*/
+
+/* The navbar container */
+.nav {
+  overflow: hidden;
+}
+
+/* Navbar links */
+.nav a {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+/* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
+  nav ul li a {
+    float: none;
+    width: 100%;
+  }
+
+.column {
+    width: 100%;
+}
+
+ .row {
+    flex-direction: column;
+  }
+
+  .gallery-divider {
+    visibility: hidden !important;
+  }
+
+}
+
+
+
